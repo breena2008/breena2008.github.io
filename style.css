@@ -1,12 +1,12 @@
 :root {
-            --primary: #6d5dfc;
-            --secondary: #43cea2;
-            --accent: #ff6b6b;
-            --light: #f8f9fa;
-            --dark: #2c3e50;
-            --text: #495057;
-            --white: #ffffff;
-            --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            --primary: #9088cf;
+            --secondary: #1c033d;
+            --accent: #731386;
+            --light: #440841;
+            --dark: #2a5b8b;
+            --text: #4e174c;
+            --white: #e9c1d4;
+            --shadow: 0 4px 15px rgba(51, 5, 37, 0.1);
             --transition: all 0.3s ease;
             --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
         }
@@ -111,7 +111,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.2);
+            background: rgba(1, 20, 27, 0.144);
         }
         
         .hero-content {
@@ -124,7 +124,7 @@
         .hero-title {
             font-size: 3rem;
             margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            text-shadow: 2px 2px 4px rgba(48, 22, 139, 0.2);
         }
         
         .hero-text {
@@ -144,13 +144,13 @@
             transition: var(--transition);
             border: none;
             cursor: pointer;
-            box-shadow: 0 4px 10px rgba(255, 107, 107, 0.3);
+            box-shadow: 0 4px 10px rgba(180, 8, 8, 0.3);
         }
         
         .btn:hover {
-            background-color: #ff5252;
+            background-color: #3768f0;
             transform: translateY(-3px);
-            box-shadow: 0 6px 15px rgba(255, 107, 107, 0.4);
+            box-shadow: 0 6px 15px rgba(124, 23, 82, 0.4);
         }
         
         .btn-outline {
@@ -289,7 +289,7 @@
         
         .featured-img {
             height: 200px;
-            background-color: #ddd;
+            background-color: #dfbebe;
             background-size: cover;
             background-position: center;
         }
